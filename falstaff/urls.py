@@ -17,7 +17,7 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^robo-adviser/', include('robo_adviser.urls')),
+    url(r'^blog/', include('blog.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^directory/', include('directory.urls')),
     url(r'^', include('home.urls')),
